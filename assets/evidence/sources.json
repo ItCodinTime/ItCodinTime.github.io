@@ -1,0 +1,35 @@
+{
+  "sh1p-program.png": {
+    "page": "https://www.ship-studio.co/",
+    "kind": "Live website screenshot"
+  },
+  "builddallas-page.png": {
+    "page": "https://www.linkedin.com/company/build-dallas",
+    "kind": "Public organization-page screenshot"
+  },
+  "venn-community.webp": {
+    "page": "https://joinvenn.org/#seasons",
+    "image": "https://joinvenn.org/_astro/minorities_in_stem_342.D_kyYYX2_ZokIj0.webp",
+    "kind": "Minorities in STEM event photo in Venn gallery"
+  },
+  "504found-impact.jpg": {
+    "page": "https://www.504found.org/",
+    "image": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uq18GhqhGjMuTsqAKhokbaGD36YRIWN9K2DNgbju3GqFwEnWNNocrATSgkjICVDjqweOesqj4_pL97g3KnVUJw2xDGs9l1z-yyKG2kfssUJoGHdjBFLmjTbijm_C5DYyEZL4NJhvgKT4fZtyd82ymkQaqDQihVzmxEP2yrLg5ngA1tGu1fLtTCeNMOGwYI4VPWzHwEZoLeP-oJmkvdwC9jQEgzjj8RWyZc7PJt=w1280",
+    "kind": "Organization impact infographic"
+  },
+  "neat-manuscript.png": {
+    "page": "https://github.com/ItCodinTime/NEAT/blob/main/TJAS%20%283%29%20%281%29.pdf",
+    "kind": "Manuscript first page rendered with PDFKit"
+  },
+  "berkeley-haas.jpg": {
+    "page": "https://commons.wikimedia.org/wiki/File:Haas_School_of_Business.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Haas_School_of_Business.jpg",
+    "author": "Minesweeper",
+    "license": "Public domain",
+    "kind": "Campus context photo"
+  },
+  "federated-architecture.svg": {
+    "page": "https://doi.org/10.5281/zenodo.15849882",
+    "kind": "Original conceptual SVG, not an extracted research figure"
+  }
+}

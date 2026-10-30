@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" fill="none">
+  <title>Conceptual hybrid CNN–Transformer federated-learning architecture</title>
+  <desc>Three devices train on local data using CNN and Transformer blocks. Model updates connect them to a shared model while raw data stays on each device.</desc>
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#ead5dc"/></pattern>
+    <linearGradient id="surface" x1="0" y1="0" x2="900" y2="600" gradientUnits="userSpaceOnUse"><stop stop-color="#fffafb"/><stop offset="1" stop-color="#f7edf0"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" stroke="#b62942" stroke-width="1.5"/></marker>
+    <g id="device"><rect width="224" height="245" rx="3" fill="#fff" stroke="#e6d0d7"/><rect x="20" y="24" width="8" height="8" fill="#b62942"/><text x="20" y="89" font-family="Arial,sans-serif" font-size="20" fill="#241c20">Local data</text><path d="M20 111H204" stroke="#eee2e6"/><rect x="20" y="134" width="74" height="46" fill="#faf1f4"/><text x="57" y="163" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#b62942">CNN</text><path d="M100 157H118" stroke="#b62942" marker-end="url(#arrow)"/><text x="20" y="211" font-family="Arial,sans-serif" font-size="13" fill="#7d7078">Data stays on device</text><rect x="124" y="134" width="80" height="46" fill="#b62942"/><text x="164" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white">TRANS</text><text x="164" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white">FORMER</text></g>
+  </defs>
+  <path fill="url(#surface)" d="M0 0h900v600H0z"/><path fill="url(#dots)" d="M0 0h900v600H0z"/>
+  <text x="52" y="49" font-family="monospace" font-size="12" letter-spacing="2" fill="#8b6370">LOCAL TRAINING / SHARED LEARNING</text>
+  <use href="#device" x="52" y="84"/><use href="#device" x="338" y="84"/><use href="#device" x="624" y="84"/>
+  <g font-family="monospace" font-size="12" fill="#8b6370"><text x="94" y="117">DEVICE 01</text><text x="380" y="117">DEVICE 02</text><text x="666" y="117">DEVICE 03</text></g>
+  <g stroke="#b62942" stroke-width="1.5"><path d="M164 329V376H450V436" marker-end="url(#arrow)"/><path d="M450 329V436"/><path d="M736 329V376H450"/></g>
+  <rect x="340" y="360" width="220" height="30" fill="#fbf4f6"/><text x="450" y="380" text-anchor="middle" font-family="monospace" font-size="12" fill="#b62942">MODEL UPDATES</text>
+  <rect x="276" y="438" width="348" height="83" rx="3" fill="#b62942"/>
+  <g fill="#fff"><rect x="301" y="462" width="7" height="7"/><rect x="311" y="462" width="7" height="7" opacity=".45"/><rect x="301" y="472" width="7" height="7" opacity=".45"/><rect x="311" y="472" width="7" height="7"/><text x="344" y="475" font-family="Arial,sans-serif" font-size="20">Shared model</text><text x="344" y="499" font-family="Arial,sans-serif" font-size="13" opacity=".8">Aggregate local training updates</text></g>
+  <text x="450" y="568" text-anchor="middle" font-family="monospace" font-size="11" letter-spacing="1" fill="#8b6370">CONCEPTUAL ARCHITECTURE · NOT AN EXPERIMENTAL RESULT</text>
+</svg>
